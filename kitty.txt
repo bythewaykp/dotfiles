@@ -1,0 +1,21 @@
+Ctrl Shift t - open new tab
+Ctrl Shift q - quit current tab
+Ctrl Shift ArrowRight / ArrowLeft - jump tabs
+
+MOVE FONTS TO mkdir ~/.local/share/fonts
+
+~/.config/kitty/kitty.conf
+
+font_family MesloLGS NF
+
+CLEAR FONT CACHE
+
+fc-cache -f -v
+
+CHECK IF INSTALLED
+
+fc-list | grep "Meslo"
+
+CTRL BACKSPACE REMOVE WORD
+
+map ctrl+backspace send_text all \x17

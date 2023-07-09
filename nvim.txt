@@ -1,0 +1,22 @@
+COMMAND MODE(Esc)
+
+:w - save
+:wq - save and quit
+:q! - quit without saving
+:%s/<toreplace>/<tobereplaced>
+:2,3s/<toreplace>/<tobereplaced>
+
+u - undo
+Ctrl r - redo
+
+VISUAL MODE (v)
+
+y - copy
+d - cut
+p - paste
+b - beginning of word
+e - end of word
+0 - beginning of line
+$ - end of line
+{ - beginning of newline
+} - end of newline
