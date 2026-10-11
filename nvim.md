@@ -1,4 +1,4 @@
-COMMAND MODE(Esc)
+## COMMAND MODE
 
 :w - save
 :wq - save and quit
@@ -9,13 +9,14 @@ COMMAND MODE(Esc)
 u - undo
 Ctrl r - redo
 
-VISUAL MODE (v)
+## VISUAL MODE (v)
 
 y - copy
 d - cut
 p - paste
-b - beginning of word
-e - end of word
+w - next work beginning 
+b - previous word beginning
+e - next word end
 0 - beginning of line
 $ - end of line
 { - beginning of newline
