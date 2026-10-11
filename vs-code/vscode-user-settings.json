@@ -18,4 +18,5 @@
     "window.nativeTabs": true,
 
     "chat.disableAIFeatures": true,
+    "files.autoSave": "afterDelay",
 }
